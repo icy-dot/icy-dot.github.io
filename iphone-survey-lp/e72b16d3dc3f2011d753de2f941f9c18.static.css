@@ -1,0 +1,28 @@
+#header{
+    min-height: 35px;
+    width: 100%;
+    display: block;
+    background-color: #ffe300;
+}
+
+#questions_all{
+    width: 100%;
+    border-radius: 5px;
+    border: 1px #8b8b8b solid;
+}
+
+.row .survey_button{
+    padding: initial;
+    font-size: 1rem;
+}
+
+.principal_on_bodegon{
+    position: absolute;
+    z-index: 9;
+    width: 60%;
+    bottom: 0;
+}
+
+.p_hidden_survey{
+    display: none;
+}
