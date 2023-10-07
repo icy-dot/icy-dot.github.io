@@ -1,0 +1,16 @@
+.q_list.circle ul>li:before{background-color:#f40000}.testimonials .testimonial_text_inner p{font-weight:300}.projects_holder article .portfolio_description .project_category{display:none}.portfolio_single h6,.portfolio_single h6 a{color:#354256!important;font-weight:400}.q_slider .separator.small{height:3px}.carousel-inner .slider_content .text .qbutton{margin:26px 0 0 0}.blanco p,.blanco p a,.blanco h1,.blanco h2{color:#fff}.fale-connosco p{font-size:18px}.fale-connosco i{font-size:20px;margin-right:16px}.icon-header-social{font-size:22px}.three_columns>.column1{width:25%}.three_columns>.column2{width:50%;margin-top:26px}.three_columns>.column3{width:25%;margin-top:42px}.logo-centrado-vertical{margin-top:-100px}.filtros-centrado-vertical{margin-top:-38px}.highlight{padding:4px 10px 4px 10px;border-radius:4px}.promo-section .q_icon_list{margin-bottom:-8px}.promotion-text{font-size:14px!important;padding:0 0 0 25px!important}.fale-connosco{font-family:'Arial',sans-serif;font-size:16px;display:inline-block;color:#333;margin-bottom:3px!important}.wpcf7-form.cf7_custom_style_1{text-align:left!important}@media (max-width:480px){.q_elements_item_content.q_elements_holder_custom_291644{text-align:center}}@media (max-width:768px){.logo-ccep-home{display:none}.logo-ccep{text-align:center!important}.logo-centrado-vertical{margin:0}.fale-connosco p{font-size:14px}.icon-header-social{font-size:15px}.promotion-text{font-size:11px!important;padding:0 0 0 30px!important}.promotion-text-a{font-size:11px!important;padding:0 0 0 5px!important}}
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1.5rem;
+  border-radius: 10px;
+  transition: 0.4s transform, opacity ease;
+}
+
+.btn:hover {
+  opacity: 0.9;
+  transform: scale(0.9);
+}
+.btn-primary {
+  color: #fff;
+  background: var(--primary-color);
+}

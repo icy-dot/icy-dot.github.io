@@ -1,0 +1,261 @@
+/* Listado */
+#ganadores-list{
+    position: relative;
+}
+#ganadores-list a{
+    float:left;
+    margin: 0 10px 20px 10px;
+    width:calc(25% - 20px);
+    position: relative;
+    overflow: hidden;
+}
+#ganadores-list a .inner{
+    position: relative;
+    padding-bottom: 90.9091%;
+    height: 0;
+    display: block;
+}
+
+#ganadores-list a img{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    display: block;
+    transition: all .3s ease-out;
+}
+#ganadores-list a h3{
+    position: absolute;
+    bottom: 33px;
+    left: 0;
+    width: 100%;
+    color: #fff;
+    font-weight: 300;
+    text-align: center;
+    padding:21px 0;
+}
+#ganadores-list a h3 .back{
+    position: absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    opacity: 0.6;
+    background-color: #000000;
+    z-index: 1;
+}
+#ganadores-list a h3 .text{
+    position: relative;
+    z-index: 2;
+}
+
+#ganadores-list a:hover img{
+    transform: scale(1.05);
+}
+
+.ganadores-image{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.slick-dots {
+}
+.slick-dots  li {
+    width: auto;
+    height: auto;
+}
+.slick-dots  li button {
+    display: block;
+    width: 7px;
+    height: 7px;
+    text-decoration: none;
+    float: left;
+    margin: 0;
+    text-indent: -9999px;
+    outline: none;
+    background: #9FA2A4;
+    border-radius: 5px;
+    padding: 0;
+}
+.slick-dots  li button:hover,
+.slick-dots  li button:hover{
+    background: #4E5254;
+}
+.slick-dots  li.slick-active button{
+    background: #4E5254;
+}
+
+.hidden{
+    display: none;
+}
+/*
+.q_icon_list p{
+    color: black !important;
+}*/
+
+.vencedores p{
+    color: black !important;
+}
+
+.buscador_label {
+    min-width: 95px;
+    position:relative;
+    display: block;
+    text-align: left;
+}
+.buscador_label select.buscador_select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #444;
+    background-color: #333333;
+    color: #fff;
+    text-align: left;
+}
+.buscador_label select.buscador_select:focus{
+    outline: 0;
+}
+.buscador_label::after {
+    content:"\f0d7";
+    font-family: "FontAwesome";
+    width: 16px;
+    height: 100%;
+    position:absolute;
+    top: 0;
+    right: 0;
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    background-color: #444;
+    pointer-events:none;
+}
+
+.description_text_promo{
+    height: 80px;
+    /*text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;*/
+}
+
+.center_title_promo{
+    display: flex;
+    min-height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
+    -ms-justify-content: space-between;
+    -o-justify-content: space-between;
+    -webkit-align-items: self-start;
+    align-items: self-start;
+    -moz-align-items: self-start;
+    -ms-align-items: self-start;
+    -o-align-items: self-start;
+}
+
+.wpb_wrapper.align-title h4{
+    min-height: 50px;
+}
+
+.center_title_promo,
+.center_title_promo a{
+    min-height: 50px;
+    font-size: 19px;
+    letter-spacing: -0.5px;
+}
+
+span.highlight{
+    font-size:15px;
+    margin-left: 3px;
+}
+
+.bg-promo-inact{
+    background-color: #80808036;
+}
+
+.wrapper-top-logo{
+    display: block;
+    width: 150px;
+    margin: 0 auto;
+}
+
+.wrapper-top-logo img{
+    display: block;
+    margin: 0 auto;
+    /*height: 100px;*/
+}
+
+.wrapper-top-logo-new{
+    display: block;
+    width: 150px;
+    margin: 0 auto;
+}
+
+.wrapper-top-logo-new img{
+    display: block;
+    margin: 0 auto;
+    /*height: 100px;*/
+}
+
+.info-block-winners p{
+    text-align: center;
+    background: #f40000;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+.info-block-winners a, .info-block-winners a:hover{
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+.wrapper-btn-more-proms{
+    text-align: center;
+    padding: 20px 0;
+}
+
+.btn-more-proms-no-visibles{
+    text-decoration: underline;
+}
+
+.logo-buscador{
+    background-color: red;
+    border-radius: 105px;
+    height: 150px;
+}
+
+.logo-buscador img{
+    top: 22px;
+    position: relative;
+}
+
+@media screen and (max-width: 768px) {
+    .logo-ccep-promo-ind{
+        top: -100px;
+        position: relative;
+        text-align: center !important;
+    }
+    .q_icon_list p{
+        line-height: 27px !important;
+    }
+    .buscador_label select.buscador_select{
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 760px){
+    .image-promo-list{
+        height: 240px !important;
+    }
+}

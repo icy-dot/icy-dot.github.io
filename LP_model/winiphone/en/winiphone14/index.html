@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* 设置基本样式 */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url("bg.jpg"); /* 替换为你的背景图像的URL */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* 设置网页内容的容器 */
+        .container {
+            max-width: 800px;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+        }
+        .container_1 {
+            max-width: 800px;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+        }
+        /* 设置网页标题样式 */
+        .title {
+            font-size: 32px; /* 修改标题字体大小 */
+            font-weight: bold; /* 添加标题字体加粗 */
+            margin-bottom: 30px;
+            color: #f50aa7; /* 设置标题文本颜色 */
+        }
+
+        /* 设置内容段落样式 */
+        .content {
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+            color: #dcf742; /* 设置内容文本颜色 */
+            font-weight: bold;
+        }
+        /*设置标题下一行的文字样式*/
+        .content_1 {
+            font-size: 20px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+            color: #ffffff; /* 设置内容文本颜色 */
+            font-weight: bold;
+        }
+
+        /* 设置图片样式 */
+        .image {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        /* 添加透明度为70%的黑色背景 */
+        .container::before {
+            content: "";
+            position: absolute;
+            top: -20px;
+            left: -20px;
+            right: -20px;
+            bottom: -20px;
+            background-color: rgba(0, 0, 0, 0.742);
+            z-index: -1;
+        }
+
+        .button-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center; /* 居中对齐按钮 */
+        }
+
+        .button {
+            display: inline-block;
+            padding: 15px 30px; /* 调整按钮内边距以增大尺寸 */
+            background-color: rgb(0, 171, 126);
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+            border-radius: 5px;
+            width: 100%; /* 设置按钮宽度为100% */
+            box-sizing: border-box; /* 确保按钮宽度包括内边距和边框 */
+        }
+
+        .footer {
+            width: 100%;
+            background-color:transparent; /* 使用rgba()设置透明背景 */
+            padding: 10px;
+            text-align: center;
+            color: white;
+            margin-top: 10px;
+        }   
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Claim Your FREE iphone</h1>
+        <p class="content_1">2023 Apple Random Winner</p>
+        <img class="image" src="iphone.jpg" alt="图片描述"> <!-- 替换为你的图片的URL -->
+        <p class="content">Select Your Country Below</p>
+        <div>
+            <a class="button" href="clickurl">UK</a>
+            <a class="button" href="clickurl">US</a>
+            <a class="button" href="clickurl">CA</a>
+            <a class="button" href="clickurl">Neither</a>
+        </div>
+        <div >
+            <p class="footer">© all rights resrved by APPLE. Privacy Policy  Terms of Service   </p>
+        </div>
+    </div>
+</body>
+</html>
