@@ -1,0 +1,284 @@
+/*
+* Dark Style
+*/
+.body {
+	-webkit-transition: all ease 0.3s;
+	        transition: all ease 0.3s;
+}
+
+.qoxag-news-ticker .swiper-navigation-wrapper,
+.ekit-template-content-header .elementor-section-wrap,
+.qoxag-news-ticker .swiper-navigation-wrapper,
+.ekit-template-content-header .elementor-section {
+	-webkit-transition: all ease 0.25s;
+	        transition: all ease 0.25s;
+}
+
+.dark-mode {
+	position: relative;
+}
+
+.dark-mode.fonts-loaded h2 {
+	color: #fff;
+}
+
+.dark-mode.fonts-loaded h3 {
+	color: #fff;
+}
+
+.dark-mode .home-inner-content,
+.dark-mode .qoxag-news-ticker .swiper-navigation-wrapper,
+.dark-mode body {
+	background: #000;
+}
+
+.dark-mode .nav-tabs .nav-item .nav-link,
+.dark-mode .nav-tabs .nav-item .nav-link h3,
+.dark-mode .nav-tabs .nav-item .nav-link.active,
+.dark-mode .post-title a,
+.dark-mode .post-meta span,
+.dark-mode .post-meta span a,
+.dark-mode .post-content p,
+.dark-mode .breadcrumb li,
+.dark-mode .breadcrumb li a,
+.dark-mode .post-title,
+.dark-mode .blog-single .post-meta li,
+.dark-mode .blog-single .post-meta li.post-author a,
+.dark-mode .blog-single .post-meta li.post-comment a,
+.dark-mode .wp-block-quote::before,
+.dark-mode .wp-block-quote p,
+.dark-mode .wp-block-quote cite,
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode h4,
+.dark-mode h5,
+.dark-mode h6,
+.dark-mode .blog-single .tag-lists a,
+.dark-mode .blog-single ul li,
+.dark-mode .blog-single ol li,
+.dark-mode .post-date-info,
+.dark-mode .error-page .error-code,
+.dark-mode .pagination li a i,
+.dark-mode .pagination li span i,
+.dark-mode .author-box .author-url a,
+.dark-mode .post-content .post-meta-info li,
+.dark-mode .post-content .post-meta-info li a,
+.dark-mode .ekit-wid-con .elementskit-section-title-wraper .elementskit-section-subtitle,
+.dark-mode .ekit-wid-con .elementskit-infobox .elementskit-info-box-icon i,
+.dark-mode .ekit-wid-con .ekit-offcanvas-toggle-wraper .ekit_offcanvas-sidebar i,
+.dark-mode .sidebar ul li a,
+.dark-mode .post-readmore,
+.dark-mode .post-navigation span,
+.dark-mode .post-navigation .post-next a p,
+.dark-mode .post-navigation .post-previous a p,
+.dark-mode .sidebar .widget .widget-title,
+.dark-mode .qoxag-grid-single .post-heading a,
+.dark-mode .qoxag-date span,
+.dark-mode .elementor-icon-list-text,
+.dark-mode .dark-mode-social a,
+.dark-mode pre,
+.dark-mode .qoxag-grid-single .post-heading a,
+.dark-mode .single-post-style5 .post-title-area .post-meta span.post-author,
+.dark-mode .single-post-style5 .post-title-area .post-meta span.post-author span {
+	color: #fff;
+}
+
+.dark-mode body,
+.dark-mode .qoxag-grid-single .post-heading a,
+.dark-mode .elementskit-section-title,
+.dark-mode .elementskit-section-title > span,
+.dark-mode .post-navigation-item,
+.dark-mode .footer-widget.widget.widget_search .search-button,
+.dark-mode .sidebar .widget.widget_search .search-button,
+.dark-mode .wp-block-search .wp-block-search__button,
+.dark-mode .search-forms .search-button,
+.dark-mode .tranding-bar .swiper-slide .post-title a,
+.dark-mode .qoxag-date span,
+.dark-mode .ekit_social_media > li > a,
+.dark-mode .qoxag-grid-single .post-meta span,
+.dark-mode .entry-content a:hover,
+.dark-mode .comment-form .logged-in-as,
+.dark-mode .widget-title span,
+.dark-mode .blocks-gallery-caption,
+.dark-mode .comment-form textarea.form-control,
+.dark-mode .not-found .input-group .form-control,
+.dark-mode .error404 .error-page .error-message h3,
+.dark-mode .dark-section .elementor-icon-list-text,
+.dark-mode .blog-single .nobanner-breadcrumb .breadcrumb li a,
+.dark-mode .elementskit-menu-hamburger > .ekit-menu-icon,
+.dark-mode .qoxag-authors .author-name,
+.dark-mode .ts-bg-block .qoxag-grid-single .post-excerpt,
+.dark-mode .title-bg-dark .section-title,
+.dark-mode .elementskit-menu-hamburger.breadcrumb,
+.dark-mode .qoxag-grid-single .post-excerpt,
+.dark-mode .qoxag-post-tab .qoxag-tab-a .tab-head,
+.dark-mode .title-style2 .section-title,
+.dark-mode .ultp-block-items-wrap .ultp-block-item .ultp-block-title a,
+.dark-mode .ultp-block-items-wrap .ultp-block-meta span,
+.dark-mode .ultp-block-items-wrap .ultp-block-meta span a,
+.dark-mode .ultp-block-items-wrap .ultp-block-meta span a:hover,
+.dark-mode .ultp-block-excerpt,
+.dark-mode .ultp-heading-wrap .ultp-heading-inner span,
+.dark-mode .ultp-block-items-wrap .ultp-block-readmore a {
+	color: #fff !important;
+}
+
+.dark-mode .ultp-block-items-wrap .ultp-block-meta span svg,
+.dark-mode .ultp-block-c6faee .ultp-block-readmore a svg {
+	fill: #fff !important;
+}
+
+.dark-mode .title-style2 .section-subtitle {
+	opacity: 0.5;
+}
+
+.dark-mode .dark-title .elementor-widget-container {
+	background-color: transparent !important;
+}
+
+.dark-mode .dark-title .elementor-widget-container .qoxag-title .section-title::before {
+	background: #000;
+}
+
+.dark-mode .single-post .blog-single .main-post-header-bg,
+.dark-mode .elementor-section-wrap,
+.dark-mode .elementor-section {
+	background: transparent !important;
+}
+
+.dark-mode .qoxag-grid-single.thumb-left .post-content,
+.dark-mode .qoxag-grid-single.thumb-right .post-content,
+.dark-mode .dark-title-bg .elementor-widget-container,
+.dark-mode .tag-lists a,
+.dark-mode .tagcloud a
+.elementor-section,
+.dark-mode .dark-feature-bg .qoxag-grid-single .post-content,
+.dark-mode .qoxag-news-ticker .swiper-navigation-wrapper,
+.dark-mode .title-style2 .qoxag-title .section-title::before,
+.dark-mode .title-style3 .elementor-widget-container,
+.dark-mode .title-style3 .qoxag-title .section-title::before,
+.dark-mode .body-box-layout .home-inner-content,
+.dark-mode .body-box-layout .ekit-template-content-header,
+.dark-mode .body-box-layout .ekit-template-content-footer,
+.dark-mode .body-box-layout .main-container {
+	background-color: #000 !important;
+}
+
+.dark-mode .xs_social_counter_widget .xs_counter_url.wslu-counter-space li {
+	border-color: transparent;
+}
+
+.dark-mode .single-post .banner-bg-style3 .nobanner-breadcrumb {
+	border-top: none;
+}
+
+.dark-mode .bg-dark-alt,
+.dark-mode .bg-dark-alt .ultp-block-slider-wrap .ultp-block-content .ultp-block-content-inner,
+.dark-mode .author-box,
+.dark-mode .red-grid .qoxag-grid-single .post-content,
+.dark-mode .ekit-template-content-footer,
+.dark-mode .single-post .banner-bg-style3 .main-post-header-bg,
+.dark-mode .load-more-btn::after,
+.dark-mode .footer-widget.widget.widget_search .search-button,
+.dark-mode .sidebar .widget.widget_search .search-button,
+.dark-mode .wp-block-search .wp-block-search__button,
+.dark-mode .search-forms .search-button,
+.dark-mode .footer-widget.widget.widget_search .form-control,
+.dark-mode .sidebar .widget.widget_search .form-control,
+.dark-mode .wp-block-search .wp-block-search__input,
+.dark-mode .search-forms .search-button,
+.dark-mode .not-found .input-group .form-control,
+.dark-mode .footer-dark .qoxag-grid-single .post-content,
+.dark-mode .qoxag-video-style-2 .qoxag-grid-single .post-content,
+.dark-mode .title-style3.dark .elementor-widget-container,
+.dark-mode .title-style3.dark .qoxag-title .section-title::before,
+.dark-mode .post-slider .bg-dark-alt > .elementor-widget-wrap,
+.dark-mode .video-section .qoxag-grid-single .post-content,
+.dark-mode .video-section .title-style2 .qoxag-title .section-title::before {
+	background: #1f1f1f !important;
+}
+
+.dark-mode .dark-footer-social {
+	background: #4e65ff !important;
+}
+
+.dark-mode .ts-count-post-style-2.ts-count-post .qoxag-post-grid div[class^="col-"] .qoxag-grid-single::before {
+	color: #1f1f1f;
+	border-color: transparent;
+}
+
+.dark-mode .dark-mode-content-bg .post-content {
+	background-color: transparent !important;
+}
+
+.dark-mode .blog-single .post .post-body {
+	background: transparent;
+}
+
+.dark-mode .blog-single .entry-content .wp-block-quote p {
+	color: #ffffffd1;
+}
+
+.dark-mode .single-post .wp-block-latest-posts li a {
+	color: #fff;
+}
+
+.dark-mode .single-post .wp-block-latest-posts li a:hover {
+	border-color: #fff;
+}
+
+.dark-mode .dark-section {
+	margin-bottom: 0 !important;
+}
+
+.dark-mode .elementor-widget-container,
+.dark-mode .qoxag-grid-single,
+.dark-mode .post-navigation,
+.dark-mode .post-single,
+.dark-mode .widget-title,
+.dark-mode .blog-post-comment .comment-respond .comment-form .form-control,
+.dark-mode .nobanner-breadcrumb,
+.dark-mode .post-navigation-item,
+.dark-mode .sidebar ul li,
+.dark-mode .footer-widget ul li,
+.dark-mode .elementor-icon-list-item,
+.dark-mode .dark-mode-social a,
+.dark-mode .dark-section .elementor-element-populated,
+.dark-mode .tag-lists a,
+.dark-mode .social-share ul li.xs-share-li,
+.dark-mode .tagcloud a,
+.dark-mode .ekit_social_media > li > a,
+.dark-mode .post-tag-container,
+.dark-mode .elementskit-menu-hamburger,
+.dark-mode .dark-section {
+	border-color: #464c58 !important;
+}
+
+.dark-mode .post-heading a {
+	display: inline;
+	padding-bottom: 3px;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), color-stop(98%, #fff));
+	background: linear-gradient(to bottom, #fff 0%, #fff 98%);
+	background-repeat: no-repeat;
+	background-position: left 100%;
+	background-size: 0 2px;
+	-webkit-transition: all 0.3s linear;
+	        transition: all 0.3s linear;
+}
+
+.dark-mode .post-heading a:hover {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(95%, #fff0), color-stop(0, #fff)) !important;
+	background: linear-gradient(to bottom, #fff0 95%, #fff 0) !important;
+	background-size: 100% 2px;
+	background-repeat: no-repeat;
+	background-position: left 100%;
+	-webkit-transition: all 0.3s linear;
+	        transition: all 0.3s linear;
+}
+
+@media (min-width: 1024px) {
+	.dark-mode .elementskit-navbar-nav > li > a {
+		color: #fff !important;
+	}
+}
