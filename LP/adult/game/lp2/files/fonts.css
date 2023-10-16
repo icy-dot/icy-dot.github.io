@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'HelveticaNeueBlackCond';
+    src: url('fonts/fontsHelveticaNeueBlackCond.eot');
+    src: url('fonts/fontsHelveticaNeueBlackCond.eot') format('embedded-opentype'),
+         url('fonts/fontsHelveticaNeueBlackCond.woff2') format('woff2'),
+         url('fonts/fontsHelveticaNeueBlackCond.woff') format('woff'),
+         url('fonts/fontsHelveticaNeueBlackCond.ttf') format('truetype'),
+         url('fonts/fontsHelveticaNeueBlackCond.svg#HelveticaNeueBlackCond') format('svg');
+}
+
+@font-face {
+    font-family: 'theboldfont';
+    src: url('fonts/fontstheboldfont.eot');
+    src: url('fonts/fontstheboldfont.eot') format('embedded-opentype'),
+         url('fonts/fontstheboldfont.woff2') format('woff2'),
+         url('fonts/fontstheboldfont.woff') format('woff'),
+         url('fonts/fontstheboldfont.ttf') format('truetype'),
+         url('fonts/fontstheboldfont.svg#theboldfont') format('svg');
+}
+
+@font-face {
+    font-family: 'EurostileLTStdBold';
+    src: url('fonts/fontsEurostileLTStdBold.eot');
+    src: url('fonts/fontsEurostileLTStdBold.eot') format('embedded-opentype'),
+         url('fonts/fontsEurostileLTStdBold.woff2') format('woff2'),
+         url('fonts/fontsEurostileLTStdBold.woff') format('woff'),
+         url('fonts/fontsEurostileLTStdBold.ttf') format('truetype'),
+         url('fonts/fontsEurostileLTStdBold.svg#EurostileLTStdBold') format('svg');
+}
